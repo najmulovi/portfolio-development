@@ -87,3 +87,9 @@ h2 {
 .bottom-section h1 {
     margin-left: 10px;
 }
+
+footer p {
+    text-align: center;
+    font-weight: 200;
+    color: gray;
+}
