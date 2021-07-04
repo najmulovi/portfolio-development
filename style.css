@@ -5,12 +5,19 @@ body {
 
 section {
     display: flex;
+    margin-bottom: 80px;
 }
 
 .half-width {
     width: 50%;
     margin-left: 5%;
     margin-top: 2%;
+}
+
+.half-width p {
+    width: 90%;
+    font-weight: 200;
+    color: grey;
 }
 
 .half-width img {
@@ -38,4 +45,11 @@ h1 {
     background-repeat: no-repeat;
     background-position-y: -40%;
     background-position-x: -3%;
+}
+
+.middle-section {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 120%;
 }
