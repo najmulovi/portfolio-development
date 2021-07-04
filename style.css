@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-section {
+.flex-section {
     display: flex;
     margin-bottom: 80px;
 }
@@ -40,6 +40,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .top-section {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
@@ -52,4 +56,34 @@ h1 {
     background-repeat: no-repeat;
     background-position: right;
     background-position-y: 120%;
+}
+
+.bottom-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 85%;
+}
+
+#box-full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    box-shadow: 5px 7px 40px gray;
+}
+
+#box-web-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    box-shadow: 5px 7px 40px gray;
+    height: 400px;
+    margin-right: 25px;
+}
+
+.bottom-section .half-width {
+    padding: 5px 20px;
+}
+
+.bottom-section h1 {
+    margin-left: 10px;
 }
